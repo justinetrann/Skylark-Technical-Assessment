@@ -4,9 +4,9 @@
 This Python script processes stock trading data from a CSV file, extracting key financial metrics such as total trade volume, the largest single trade, and closing prices. Designed for speed and accuracy, it operates without third-party libraries, making it suitable for large datasets.
 
 ## Performance (Time & Space Complexity)
-- **Time Complexity**
+**Time Complexity**
 - This script processes stock trading data in O(N) time complexity, where N is the number of trades.
-- **Space Complexity**
+**Space Complexity**
 - The space complexity is O(K) + O(H), where K is the number of unique companies and H is the number of trading hours, making it scalable without excessive memory usage.
 
 ## Features
